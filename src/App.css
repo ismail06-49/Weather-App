@@ -1,0 +1,99 @@
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+.dark-header {
+  min-height: 60px;
+  display: flex;
+  justify-content: center;
+  background: #01301E;
+  color: #e2d5c6;
+  box-shadow: 0px 10px 15px 2px #01301E;
+}
+
+.light-header {
+  min-height: 60px;
+  display: flex;
+  justify-content: center;
+  background: #e2d5c6;
+  color: #01301E;
+  box-shadow: 0px 10px 15px 2px #EBE2D6;
+}
+
+.city span {
+  font-size: 24px;
+  opacity: 0.8;
+}
+
+.search-icon {
+  position: absolute;
+  transform: translate(10px, 0);
+}
+
+.search-input input {
+  height: 30px;
+  background: transparent;
+  text-align: center;
+  border-radius: 16px;
+}
+
+.search-result {
+  width: 300px;
+  position: absolute;
+  top: 0;
+  transform: translate(0, 60px);
+  border-radius: 8px;
+}
+
+.result {
+  cursor: pointer;
+}
+
+.theme, .setting {
+  cursor: pointer;
+}
+
+.setting-menu {
+  display: none;
+  position: absolute;
+  width: 300px;
+  height: 160px;
+  top: 0;
+  transform: translate(0, 60px);
+  border: 2px solid #EBE2D6;
+  border-radius: 24px;
+}
+
+.open {
+  display: block;
+}
+
+.system {
+  text-align: center;
+  width: 75px;
+  height: 30px;
+  border: 2px solid rgb(0 0 0 / 57%);
+  border-radius: 6px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.active {
+  opacity: 1;
+}
+
+.light-main {
+  background-color: #EBE2D6;
+  color: #0e593b;
+}
+
+.dark-main {
+  background-color: #0e593b;
+  color: #EBE2D6;
+}
+
+.main, .app {
+  overflow-y: auto;
+  overflow-x: hidden;
+}

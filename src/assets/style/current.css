@@ -1,0 +1,82 @@
+.temperature, .other-info {
+    height: 350px;
+    border: 2px solid #4f4f4f;
+    background-color: rgba(3, 38, 13, 0.27);
+    border-radius: 24px;
+}
+
+.weather-icon img {
+    width: 100px;
+    height: 100px;
+}
+
+.real {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.feels_like {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.summary {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.value {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.icon i {
+    font-size: 24px;
+    font-weight: 600;
+}
+/*
+@media (max-width: 768px) { 
+    .temperature{
+        width: 40%;
+    }
+
+    .weather-icon img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .real {
+        font-size: 32px;
+        font-weight: 500;
+    }
+
+    .feels_like {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .summary {
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .value {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .name {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .icon i {
+        font-size: 16px;
+        font-weight: 600;
+    }
+}*/
