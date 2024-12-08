@@ -11,7 +11,7 @@ export default function Header() {
     return (
         <div className={`header p-3 ${dark ? 'dark-header' : 'light-header'}`}>
             <div className="container d-flex flex-row justify-content-between align-items-center">
-                <div className="row">
+                <div className="row w-100">
                     <City />
                     <Search />
                     <Settings />
